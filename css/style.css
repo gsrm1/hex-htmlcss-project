@@ -56,7 +56,7 @@
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url('/img/logo.png');
+    background-image: url();
 }
 .header .menu ul{
     width: 265px;
