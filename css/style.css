@@ -8,7 +8,7 @@
 }
 .nav{
     max-width: 1000px;
-    height: 28px;
+    padding: 5px 0px;
     background-color: hsl(0, 0%, 95%);
     display: flex;
     align-items: center;
@@ -43,7 +43,6 @@
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
-    height: 52px;
     position: fixed;
     top: 28px;
     width: 100%;
@@ -60,7 +59,6 @@
 }
 .header .menu ul{
     width: 265px;
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -80,6 +78,7 @@
     border-bottom: 5px solid red;
 }
 .content-banner{
+    max-width: 1000px;
     height: 346px;
     margin-bottom: 55px;
     display: flex;
@@ -87,21 +86,21 @@
     background-image: url(../img/banner.png);
 }
 .content-banner h1{
-    height: 150px;
     width: 1000px;
-    padding: 20px 20px 0px;
+    padding: 20px 20px 20px;
     color: white;
     font-size: 35px;
     line-height: 50px;
     background-color: hsla(0, 0%, 0%, 0.2);
 }
-.content-article{
+.content-course{
+    max-width: 1000px;
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
     gap: 0px 30px;
 }
-.content-article .box {
+.content-course .course {
     width: 300px;
     border-radius: 5px;
     box-shadow: 0px 10px 10px -5px gray;
@@ -110,32 +109,31 @@
     font-size: 14px;
     line-height: 23px;
 }
-.content-article .box:hover{
+.content-course .course:hover{
     box-shadow: 0px 0px  20px green;
     transition: .3s;
 }
-.content-article .box h3, .content-article .box img{
+.content-course .course h3, .content-course .course img{
      text-align: center;
      display: block;
      margin: auto;
      font-size: 18px;
      padding: 10px 0px;
 }
-.content-article .box-mid img{
+.content-course .course-rwd img{
     margin-top: 20px;
 }
-.content-article .box-mid h3{
+.content-course .course-rwd h3{
     margin-top: 30px;
 }
-.content-article .box-right img{
+.content-course .course-jquery img{ 
     margin-top: 20px;
 }
-.content-article .box-right ul{
+.content-course .course-jquery ul{
     padding-left: 16px;
 }
-.content-article .box-right li::marker{
-    content: " • ";
-    font-size: 12px;
+.content-course .course-jquery li{
+    list-style-type: disc;
 }
 .content-table{
     max-width: 850px;
@@ -186,6 +184,7 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 10px;
 }
 .form-inputs input{
     width: 362px;
@@ -227,6 +226,8 @@
     transition: .3s;
 }
 .footer{
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 0px 15px;
     display: flex;
     justify-content: space-between;
