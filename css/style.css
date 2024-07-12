@@ -70,6 +70,9 @@
     color: #00cc99;
     border-bottom: 5px solid transparent;
 }
+.header .menu a span{
+    color: red;
+}
 .header .menu a:hover{
     border-bottom: 5px solid #00cc99;
 }
